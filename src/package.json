@@ -1,0 +1,19 @@
+{
+  "name": "youml-api",
+  "version": "1.0.0",
+  "description": "youml web api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MBODM",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0"
+  },
+  "type": "module"
+}
