@@ -5,7 +5,7 @@ import { itemsRouter } from './router-items.js';
 import { parseRouter } from './router-parse.js';
 import { errorRouter } from './router-error.js';
 
-// import * as config from './config.js';
+import * as config from './config.js';
 
 const app = express();
 
