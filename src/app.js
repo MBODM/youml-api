@@ -16,7 +16,7 @@ app.use(itemsRouter);
 app.use(parseRouter);
 app.use(errorRouter);
 
-// const host = await config.getHost();
-// const port = await config.getPort();
+const host = await config.getHost();
+const port = await config.getPort();
 
-app.listen(3000, ''); //port, host);
+app.listen(port, host);
